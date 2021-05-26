@@ -22,6 +22,8 @@ add_message_files(
   Polygon2D.msg
   PolygonWithHoles.msg
   PolygonWithHolesStamped.msg
+  PolynomialSegment.msg
+  PolynomialTrajectory.msg
   PolynomialSegment4D.msg
   PolynomialTrajectory4D.msg
 )
@@ -30,6 +32,7 @@ add_service_files(
   FILES
   PlannerService.srv
   PolygonService.srv
+  ChangeNameService.srv
 )
 
 generate_messages(
